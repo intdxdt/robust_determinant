@@ -1,8 +1,3 @@
-extern crate robust_sum;
-extern crate robust_scale;
-extern crate two_product;
-extern crate robust_compress_seq;
-
 use robust_compress_seq::compress;
 use robust_sum::robust_sum as rsum;
 use robust_scale::robust_scale as rscale;
